@@ -1,5 +1,4 @@
-#ga usah rename anj
-#kontol yang rename
+
 import random
 import socket
 import threading
@@ -31,7 +30,7 @@ def run():
 
 				s.sendto(data,addr)
 
-			print("\033[1;36;40mSlayerEx Attack %s Port %s"%(ip,port))
+			print("attacking server..."%(ip,port))
 
 		except:
 
