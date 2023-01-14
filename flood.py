@@ -67,9 +67,9 @@ def run2():
 			print("Down!!")
 
 for y in range(threads):
-    if choice == 'UDP':
+    if choice == 'udp':
         th = threading.Thread(target = run)
         th.start()
-    elif choice == 'TCP':
+    elif choice == 'tcp':
         th = threading.Thread(target = run2)
         th.start()
